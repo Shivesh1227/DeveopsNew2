@@ -16,7 +16,7 @@ public class DockerJenkinsApplication {
 	
 	@GetMapping
 	public String message() {
-		return "Hey you are inside DockerAssignment";
+		return "Hey you are second time inside DockerAssignment";
 	}
 	public static void main(String[] args) {
 		 logger.info(" in First Logger");
