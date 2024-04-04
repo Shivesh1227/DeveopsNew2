@@ -19,7 +19,7 @@ public class DockerJenkinsApplication {
 		return "Hey you are second time inside DockerAssignment";
 	}
 	public static void main(String[] args) {
-		 logger.info(" in First Logger");
+		 logger.info(" in second Logger");
 		SpringApplication.run(DockerJenkinsApplication.class, args);
 	}
 
